@@ -5,7 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([myServer], [1.0.0], [muerbingsha@126.com])
 AC_CONFIG_SRCDIR([include/deng.h])
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE	#[Shark] with aclocal for automake
+AM_INIT_AUTOMAKE([subdir-objects])	#[Shark] with aclocal for automake
 LT_INIT 		#[Shark] init libtool to  get .so
 
 # Checks for programs.
@@ -15,7 +15,7 @@ AC_PROG_RANLIB		#[Shark] get static lib *.a
 AC_PROG_LIBTOOL		#[Shark] get dynamic lib *.so
 AC_LANG([C++])
 AC_SUBST([CC])
-AC_SUBSTR([MY_APP_VERSION])
+AC_SUBST([MY_APP_VERSION])
 
 # Checks for libraries.
 AC_CHECK_LIB(c, accept4, AC_DEFINE(HAVE_ACCEPT4, 1, [have accept4]))
