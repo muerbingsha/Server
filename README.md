@@ -8,8 +8,8 @@ for game, chat and so on
 # My Learning Resources
 
 (一) UTHash 
-author: troydhanson
-link: https://github.com/troydhanson/uthash
+author: troydhanson<br>
+link: https://github.com/troydhanson/uthash<br>
 
 (二）n2n
 
