@@ -5,6 +5,8 @@ for game, chat and so on
 
 #HttpParser
 
+#Automake(deep)
+
 #Swoole
 
 #n2n
