@@ -1,13 +1,21 @@
 # Server
 for game, chat and so on 
 
-#UTHash
+# Elf (Automake_sample)
+1) generate libdeng.a test
+2) headers are put in include
 
-#HttpParser
+# My Learning Resources
 
-#Automake(deep)
+(一) UTHash 
+author: troydhanson
+link: https://github.com/troydhanson/uthash
 
-#Swoole
+(二）n2n
 
-#n2n
+(三) HttpParser
+
+(四) Swoole
+
+
 
